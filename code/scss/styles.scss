@@ -1,0 +1,82 @@
+@import 'reset.scss';
+@import 'https://fonts.googleapis.com/css2?family=Chivo:wght@300;900&display=swap';
+
+$button_default: #54E6AF;
+$button_hover: #B3FFE2;
+$form_default: #2C344B;
+$form_active: #FFFFFF;
+$form_error: #FB3E3E;
+$body_bg: #121725;
+$form_error: #5A668A;
+$page_font: 'Chivo', sans-serif;
+$page_font_color: #FFFFFF;
+$page_weight_bold: 900;
+$page_weight_light: 300;
+
+body {
+    background: $body_bg;
+    font-family: $page_font;
+    color: $page_font_color;
+}
+
+.page {
+    padding: 105px 0;
+    background-color: $body_bg;
+}
+
+.content {
+    position: absolute;
+    max-width: 720px;
+    background: $body_bg;
+    z-index: 100px;
+    margin-top: 100px;
+    padding: 5rem 5rem 5rem 0;
+}
+
+.content .content__title {
+    text-transform: uppercase;
+    font-size: 52px;
+    margin-bottom: 24px;
+}
+
+.content .content__title .highlight {
+    color:  #54E6AF;
+}
+
+.content .content__paragraph { 
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 450px;
+    margin-bottom: 40px;
+}
+
+// form {
+//     border-radius: 26px;
+//     background: $form_default;
+//     // max-width: 300px;
+//     // display: flex;
+// }
+// form input[type=email] {
+//     background: none;
+//     border-style: none;
+//     color: #FFFFFF;
+//     width: 100%;
+// }
+// form button {
+//     border-radius: 26px;
+//     border-style: none;
+//     font-size: 13px;
+//     font-weight: 900;
+//     padding: 13px 10px;
+//     margin: 5px;
+//     background: $button_default;
+//     width: 150px;
+// }
+form { 
+    margin-bottom: 30px;
+}
+
+div ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
